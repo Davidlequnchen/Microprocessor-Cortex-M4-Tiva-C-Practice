@@ -1,0 +1,4 @@
+Dependencies for Project 'project_arithmatic_test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\startup.s)(0x55C9DEDE)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-ID:/Engineering_software/Keil_v5/pack/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-ID:/Engineering_software/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1"-o ./objects/startup.o)
+F (.\arithmatic_test.s)(0x5F57071A)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-ID:/Engineering_software/Keil_v5/pack/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-ID:/Engineering_software/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1"-o ./objects/arithmatic_test.o)

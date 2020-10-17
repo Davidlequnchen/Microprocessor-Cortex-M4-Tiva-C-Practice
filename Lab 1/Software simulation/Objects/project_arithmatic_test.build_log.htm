@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: David Chen, NTU, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  D:\Engineering_software\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\David Chen Lequn\OneDrive - Nanyang Technological University\NTU Course Materials\MA4832 Microprocessor system\MA4832_Lab\Lab 1\Software simulation\project_arithmatic_test.uvprojx
+Project File Date:  09/08/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'D:\Engineering_software\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+"arithmatic_test.s", line 9 (column 3): Error: A1163E: Unknown opcode a , expecting opcode or Macro
+    9 00000008   a DCD (0x8321:SHL:4):OR:2
+                 ^
+"arithmatic_test.s", line 10 (column 10): Warning: A1865W: '#' not seen before constant expression
+   10 00000008   MOV r0, a
+                        ^
+1 Error, 1 Warning
+assembling arithmatic_test.s...
+linking...
+.\Objects\project_arithmatic_test.axf: error: L6002U: Could not open file .\objects\arithmatic_test.o: No such file or directory
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning, 0 error and 1 fatal error messages.
+".\Objects\project_arithmatic_test.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\Engineering_software\Keil_v5\pack\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

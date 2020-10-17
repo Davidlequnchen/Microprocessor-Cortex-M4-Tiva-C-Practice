@@ -1,0 +1,4 @@
+Dependencies for Project 'project_hardware', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.s)(0x5F83AE79)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Engineering_software\Keil_v5\pack\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Engineering_software\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "TM4C123GH6PM SETA 1"--list .\listings\main.lst --xref -o .\objects\main.o --depend .\objects\main.d)
+F (.\Startup.s)(0x55AE4BDC)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Engineering_software\Keil_v5\pack\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Engineering_software\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
