@@ -10,20 +10,19 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6140000::V6.14::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
-          <Device>TM4C123FH6PM</Device>
+          <Device>TM4C123GH6PM</Device>
           <Vendor>Texas Instruments</Vendor>
           <PackID>Keil.TM4C_DFP.1.1.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x008000) IROM(0x00000000,0x040000) CPUTYPE("Cortex-M4") FPU2 CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
-          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0TM4C123_256 -FS00 -FL040000 -FP0($$Device:TM4C123FH6PM$Flash\TM4C123_256.FLM))</FlashDriverDll>
+          <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0TM4C123_256 -FS00 -FL040000 -FP0($$Device:TM4C123GH6PM$Flash\TM4C123_256.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
-          <RegisterFile>$$Device:TM4C123FH6PM$Device\Include\TM4C123\TM4C123.h</RegisterFile>
+          <RegisterFile>$$Device:TM4C123GH6PM$Device\Include\TM4C123\TM4C123.h</RegisterFile>
           <MemoryEnv></MemoryEnv>
           <Cmp></Cmp>
           <Asm></Asm>
@@ -33,7 +32,7 @@
           <SLE66CMisc></SLE66CMisc>
           <SLE66AMisc></SLE66AMisc>
           <SLE66LinkerMisc></SLE66LinkerMisc>
-          <SFDFile>$$Device:TM4C123FH6PM$SVD\TM4C123\TM4C123FH6PM.svd</SFDFile>
+          <SFDFile>$$Device:TM4C123GH6PM$SVD\TM4C123\TM4C123GH6PM.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
           <BinPath></BinPath>
@@ -49,7 +48,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>project_hardware_test2</OutputName>
+          <OutputName>project2</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -259,17 +258,17 @@
                 <Size>0x0</Size>
               </XRAM>
               <OCR_RVCT1>
-                <Type>1</Type>
+                <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT1>
               <OCR_RVCT2>
-                <Type>1</Type>
+                <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT2>
               <OCR_RVCT3>
-                <Type>1</Type>
+                <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT3>
@@ -279,7 +278,7 @@
                 <Size>0x40000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
-                <Type>1</Type>
+                <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT5>
@@ -382,18 +381,6 @@
       <Groups>
         <Group>
           <GroupName>Source Group 1</GroupName>
-          <Files>
-            <File>
-              <FileName>Startup.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Startup.s</FilePath>
-            </File>
-            <File>
-              <FileName>main.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\main.s</FilePath>
-            </File>
-          </Files>
         </Group>
       </Groups>
     </Target>
